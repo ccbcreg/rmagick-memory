@@ -11,7 +11,7 @@ namespace :rmagick do
   task :default => :environment do
     ENV['RAILS_ENV'] = "development" 
     
-    3000.time do |x|
+    3000.times do |x|
       g = Gruff::Line.new
       g.title = 'Wow!  Look at this!'
       g.labels = { 0 => '5/6', 1 => '5/15', 2 => '5/24', 3 => '5/30', 4 => '6/4',
