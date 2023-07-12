@@ -3,7 +3,7 @@ require 'gruff'
 
 
 desc "This is the default task of rmagick"
-task report: 'report:default'
+task rmagick: 'rmagick:default'
 
 namespace :rmagick do
 
